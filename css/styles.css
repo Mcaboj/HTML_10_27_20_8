@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  height: 325px;
+  color: red;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-img {
+  border: 2px solid red;
+  background: url("./small_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-img {
+  background: url("./square.jpg");
+  background-repeat: repeat;
+  background-position: 20% 40%;
+}
